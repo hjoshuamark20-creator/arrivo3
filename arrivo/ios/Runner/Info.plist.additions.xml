@@ -1,0 +1,13 @@
+<!-- Add these keys inside the main <dict> of ios/Runner/Info.plist -->
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>Arrivo uses your location to measure how far you are from your stop.</string>
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>Arrivo needs background location so the alarm can ring before your stop, even with the screen off.</string>
+<key>NSLocationAlwaysUsageDescription</key>
+<string>Arrivo needs background location so the alarm can ring before your stop, even with the screen off.</string>
+<key>UIBackgroundModes</key>
+<array>
+    <string>location</string>
+    <string>fetch</string>
+    <string>audio</string>
+</array>
